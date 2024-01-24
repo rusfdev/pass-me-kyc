@@ -26,6 +26,7 @@ async function createForm() {
   if (!userToken) return 
 
   const passMeForm = new PassMeForm({
+    domain: 'https://e-gates.localcoins.cc',
     // User token which you can get from E-Gates api
     // here https://connect.e-gates.io/passme/technical-documentation/creating-passme-verification-and-obtaining-a-token
     userToken,
