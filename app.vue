@@ -1,5 +1,8 @@
 <template>
-  <div id="pass-me-form" />
+  <div 
+    id="pass-me-form"
+    class="pass-me-form h-screen"
+  />
 </template>
 
 <script lang="ts" setup>
@@ -53,5 +56,7 @@ onMounted(() => {
 </script>
 
 <style lang="scss" scoped>
-
+.pass-me-form:deep(iframe) {
+  @apply h-full w-full;
+}
 </style>
