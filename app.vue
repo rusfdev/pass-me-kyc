@@ -1,14 +1,5 @@
 <template>
-  <div>
-    <div class="container py-20">
-      <h1 class="text-4xl">Passme form test</h1>
-    </div>
-
-    <div 
-      id="pass-me-form"
-      class="bg-slate-300"
-    />
-  </div>
+  <div id="pass-me-form" />
 </template>
 
 <script lang="ts" setup>
